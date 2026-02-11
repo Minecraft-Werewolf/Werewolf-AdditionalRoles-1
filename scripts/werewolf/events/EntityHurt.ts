@@ -1,6 +1,6 @@
 import { EntityComponentTypes, EntityHurtAfterEvent, Player } from "@minecraft/server";
 import { MinecraftEntityTypes } from "@minecraft/vanilla-data";
-import { InGameEntityHurt } from "@mc-werewolf/game-engine";
+import { InGameEntityHurt } from "@mc-werewolf/game-module";
 import { WEREWOLF_ADDITIONALROLES_ONE_TRANSLATE_IDS } from "../constants/translate";
 
 InGameEntityHurt.afterEvent<EntityHurtAfterEvent>((ev, ctx) => {
