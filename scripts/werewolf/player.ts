@@ -6,6 +6,7 @@ export type { SelfPlayerData };
 // ここで定義したものがデフォルト値となります。
 export const playerData: SelfPlayerData = {
     playerId: "", // playerId は各プレイヤーのIdが自動で割り振られます。(このままにしておいてください)
+    isBerserk: false, // 強欲のスキル
 };
 
 DefinitionRegistry.player.register(playerData);

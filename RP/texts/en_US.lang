@@ -4,6 +4,9 @@ werewolf-additionalroles-1.description=The first expansion pack introducing new 
 werewolf-additionalroles-1.role.name.nekomata=Nekomata
 werewolf-additionalroles-1.role.description.nekomata=A capricious and unpredictable Nekomata. If you are killed by a attack, there is a 50% chance that the attacker will be taken down with you.
 
+werewolf-additionalroles-1.role.name.greedy-wolf=Greedy Wolf
+werewolf-additionalroles-1.role.description.greedy-wolf=The Greedy Wolf can unleash a powerful surge of aggression once.After using this ability, the wolf can attack bare-handed until the next successful hit, enabling consecutive eliminations.Bare-handed attacks do not trigger the normal attack cooldown.
+
 werewolf-additionalroles-1.role.name.lonewolf=Lone Wolf
 werewolf-additionalroles-1.role.description.lonewolf=A solitary Lone Wolf. You know who the werewolves are, but the werewolves do not know who the Lone Wolf is.
 
@@ -12,6 +15,8 @@ werewolf-additionalroles-1.role.description.cultist=A human who worships the wer
 
 werewolf-additionalroles-1.roleGroup.name.werewolf=Werewolves
 
+werewolf-additionalroles-1.skill.name.greedy-wolf.berserk=§4Berserk§r
+werewolf-additionlroles-1.skill.greedy-wolf.berserk.message=§4You have activated Berserk!§r
 werewolf-additionalroles-1.skill.nekomata.dragdown.message=§cYou dragged down %s!§r
 werewolf-additionalroles-1.skill.nekomata.dragdown.target.message=§cYou were dragged down by %s...§r
 

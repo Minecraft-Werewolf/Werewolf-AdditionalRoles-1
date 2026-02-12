@@ -4,6 +4,9 @@ werewolf-additionalroles-1.description=マイクラ人狼に新たな役職を�
 werewolf-additionalroles-1.role.name.nekomata=猫又
 werewolf-additionalroles-1.role.description.nekomata=自由気ままで予想がつかない猫又。自身が襲撃によって殺害された場合1/2の確率で相手も一緒に道ずれにする。
 
+werewolf-additionalroles-1.role.name.greedy-wolf=強欲な人狼
+werewolf-additionalroles-1.role.description.greedy-wolf=強欲な人狼は一度だけ非常に攻撃的な力で相手を襲撃することができる。スキルを使用後次に攻撃を当てるまで、素手による襲撃が可能となり連続殺害を狙える。素手による襲撃では襲撃CTは発生しない。
+
 werewolf-additionalroles-1.role.name.lonewolf=一匹狼
 werewolf-additionalroles-1.role.description.lonewolf=孤独を極める一匹狼。誰が人狼なのかを知っているが、人狼側は誰が一匹狼かわからない。
 
@@ -12,6 +15,8 @@ werewolf-additionalroles-1.role.description.cultist=人狼を崇拝する人狼�
 
 werewolf-additionalroles-1.roleGroup.name.werewolf=人狼
 
+werewolf-additionalroles-1.skill.name.greedy-wolf.berserk=§4強欲§r
+werewolf-additionlroles-1.skill.greedy-wolf.berserk.message=§4強欲のスキルを発動した！§r
 werewolf-additionalroles-1.skill.nekomata.dragdown.message=§c%sを道ずれにした！!§r
 werewolf-additionalroles-1.skill.nekomata.dragdown.target.message=§c%sに道ずれにされた...§r
 
