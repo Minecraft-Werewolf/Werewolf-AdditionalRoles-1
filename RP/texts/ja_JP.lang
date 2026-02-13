@@ -17,7 +17,7 @@ werewolf-additionalroles-1.roleGroup.name.werewolf=人狼
 
 werewolf-additionalroles-1.skill.name.greedy-wolf.berserk=§4強欲§r
 werewolf-additionlroles-1.skill.greedy-wolf.berserk.message=§4強欲のスキルを発動した！§r
-werewolf-additionalroles-1.skill.nekomata.dragdown.message=§c%sを道ずれにした！!§r
+werewolf-additionalroles-1.skill.nekomata.dragdown.message=§c%sを道ずれにした！§r
 werewolf-additionalroles-1.skill.nekomata.dragdown.target.message=§c%sに道ずれにされた...§r
 
 werewolf-additionalroles-1.skill.nekomata.dragdown.protected.message=§c%sの道ずれを試みたが、防がれてしまった...§r
