@@ -6,22 +6,28 @@ import { WEREWOLF_ADDITIONALROLES_ONE_TRANSLATE_IDS } from "../constants/transla
 InGameEntityHurt.afterEvent<EntityHurtAfterEvent>((ev, ctx) => {
     const { damage, damageSource, hurtEntity } = ev;
 
-    const hurtEntityData = ctx.werewolfGameData.playersData.find(
-        (playerData) => playerData.player.id === hurtEntity.id,
+    if (hurtEntity.typeId !== MinecraftEntityTypes.Player) return;
+    const hurtPlayer = hurtEntity as Player;
+    const hurtPlayerData = ctx.werewolfGameData.playersData.find(
+        (playerData) => playerData.player.id === hurtPlayer.id,
     );
-    if (!hurtEntityData) return;
-    if (hurtEntityData.role === null) return;
+    if (!hurtPlayerData) return;
+    if (hurtPlayerData.role === null) return;
 
     if (!damageSource.damagingEntity) return;
     if (damageSource.damagingEntity.typeId !== MinecraftEntityTypes.Player) return;
 
     const hitPlayer = damageSource.damagingEntity as Player;
-    if (hurtEntityData.role.id === "nekomata") {
+    const hitPlayerData = ctx.werewolfGameData.playersData.find(
+        (playerData) => playerData.player.id === hitPlayer.id,
+    );
+    if (!hitPlayerData) return;
+    if (hitPlayerData.role === null) return;
+    if (hurtPlayerData.role.id === "nekomata") {
         if (hurtEntity.id === hitPlayer.id) return;
         if (Math.random() < 0.5) {
             hitPlayer.applyDamage(999);
 
-            const hurtPlayer = hurtEntity as Player;
             const hitPlayerHealthComponent = hitPlayer.getComponent(EntityComponentTypes.Health);
 
             if (hitPlayerHealthComponent?.currentValue === 0) {
@@ -50,5 +56,15 @@ InGameEntityHurt.afterEvent<EntityHurtAfterEvent>((ev, ctx) => {
                 });
             }
         }
+    }
+
+    if (hitPlayerData.role.id === "greedy-wolf") {
+        const hitSelfPlayerData = ctx.playersData.find(
+            (playerData) => playerData.playerId === hitPlayer.id,
+        );
+        if (hitSelfPlayerData === undefined) return;
+
+        hitSelfPlayerData.isBerserk = false;
+        hitPlayer.playSound("mob.wolf.hurt");
     }
 });
