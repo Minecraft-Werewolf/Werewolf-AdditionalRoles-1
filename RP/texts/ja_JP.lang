@@ -13,6 +13,9 @@ werewolf-additionalroles-1.role.description.lonewolf=孤独を極める一匹狼
 werewolf-additionalroles-1.role.name.cultist=狂信者
 werewolf-additionalroles-1.role.description.cultist=人狼を崇拝する人狼側の人間。誰が人狼か知っている。ただし人狼側は誰が狂信者かわからない。
 
+werewolf-additionalroles-1.role.name.wolf-bound=狼憑き
+werewolf-additionalroles-1.role.description.wolf-bound=狼に憑かれてる村人。村人だが占われると人狼とでてしまう。
+
 werewolf-additionalroles-1.roleGroup.name.werewolf=人狼
 
 werewolf-additionalroles-1.skill.name.greedy-wolf.berserk=§4強欲§r

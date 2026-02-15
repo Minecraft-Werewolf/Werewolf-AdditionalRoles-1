@@ -13,6 +13,9 @@ werewolf-additionalroles-1.role.description.lonewolf=A solitary Lone Wolf. You k
 werewolf-additionalroles-1.role.name.cultist=Cultist
 werewolf-additionalroles-1.role.description.cultist=A human who worships the werewolves and fights on their side. You know who the werewolves are, but the werewolves do not know who the Cultist is.
 
+werewolf-additionalroles-1.role.name.wolf-bound=Wolf bound
+werewolf-additionalroles-1.role.definition.wolf bound=A villager possessed by a werewolf. He is a villager, but when his fortune is told he is revealed to be a werewolf.
+
 werewolf-additionalroles-1.roleGroup.name.werewolf=Werewolves
 
 werewolf-additionalroles-1.skill.name.greedy-wolf.berserk=§4Berserk§r
