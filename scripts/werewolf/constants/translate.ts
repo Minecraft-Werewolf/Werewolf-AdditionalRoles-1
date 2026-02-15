@@ -3,11 +3,13 @@ export const WEREWOLF_ADDITIONALROLES_ONE_TRANSLATE_IDS = {
     ROLE_NAME_GREEDY_WOLF: "werewolf-additionalroles-1.role.name.greedy-wolf",
     ROLE_NAME_LONEWOLF: "werewolf-additionalroles-1.role.name.lonewolf",
     ROLE_NAME_CULTIST: "werewolf-additionalroles-1.role.name.cultist",
+    ROLE_NAME_WOLF_BOUND: "werewolf-additionalroles-1.role.name.wolf-bound",
 
     ROLE_DESCRIPTION_NEKOMATA: "werewolf-additionalroles-1.role.description.nekomata",
     ROLE_DESCRIPTION_GREEDY_WOLF: "werewolf-additionalroles-1.role.description.greedy-wolf",
     ROLE_DESCRIPTION_LONEWOLF: "werewolf-additionalroles-1.role.description.lonewolf",
     ROLE_DESCRIPTION_CULTIST: "werewolf-additionalroles-1.role.description.cultist",
+    ROLE_DESCRIPTION_WOLF_BOUND: "werewolf-additionalroles-1.role.description.wolf-bound",
 
     NEKOMATA_SKILL_DRAGDOWN_MESSAGE: "werewolf-additionalroles-1.skill.nekomata.dragdown.message",
     NEKOMATA_SKILL_DRAGDOWN_TARGET_MESSAGE:

@@ -75,6 +75,17 @@ export const roles: RoleDefinition[] = [
         clairvoyanceResult: "villager",
         sortIndex: 104,
     },
+    {
+        id: "wolf-bound",
+        name: { translate: WEREWOLF_ADDITIONALROLES_ONE_TRANSLATE_IDS.ROLE_NAME_WOLF_BOUND },
+        description: {
+            translate: WEREWOLF_ADDITIONALROLES_ONE_TRANSLATE_IDS.ROLE_DESCRIPTION_WOLF_BOUND,
+        },
+        factionId: "villager",
+        divinationResult: "werewolf",
+        clairvoyanceResult: "villager",
+        sortIndex: 105,
+    },
 ];
 
 // vanillaPack -> 0番台
