@@ -16,7 +16,7 @@ werewolf-additionalroles-1.role.description.cultist=A human who worships the wer
 werewolf-additionalroles-1.role.name.wolf-bound=Wolf bound
 werewolf-additionalroles-1.role.definition.wolf bound=A villager possessed by a werewolf. He is a villager, but when his fortune is told he is revealed to be a werewolf.
 
-werewolf-additionalroles-1.roleGroup.name.werewolf=Werewolves
+werewolf-additionalroles-1.roleGroup.name.werewolf=werewolf
 
 werewolf-additionalroles-1.skill.name.greedy-wolf.berserk=§4Berserk§r
 werewolf-additionlroles-1.skill.greedy-wolf.berserk.message=§4You have activated Berserk!§r
